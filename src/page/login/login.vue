@@ -85,8 +85,7 @@
             }).then(function(res){
                 self.Classmove = res.data;
                 console.log(res.data)
-            })
-            .catch(function(err){
+            }).catch(function(err){
                 self.Classmove = '失败';
                 console.log(err)
             })

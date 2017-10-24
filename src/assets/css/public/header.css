@@ -1,0 +1,30 @@
+body{
+    background-color: #efeff4;
+}
+
+.m-hd{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 1px 6px #ccc;
+}
+.m-hd .fa{
+    width: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+.m-hd .u-tt{
+    display: flex;
+    flex: 1;
+    padding-right: 50px;
+    justify-content: center;
+    box-sizing: border-box;
+}
